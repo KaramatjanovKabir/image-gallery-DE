@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery-highlight{
+    width: 80%;
+    height: 50%;
+}
+
+
+section{
+    display: flex;
+    height: 100vh;
+}
+
+
+.room-gallery{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.room-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d2c0;
+}
+
+.room-preview{
+    width: 80%;
+    display: flex;
+    border: 2px #e2d2c0;
+}
+
+
+.room-preview img {
+    height: 100px;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: 0.3s all;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.room-preview img:hover{
+    opacity: 1;
+}
+
